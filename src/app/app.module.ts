@@ -8,6 +8,7 @@ import { MaterialModule } from './shared/material/material.module';
 import { DashboardComponent } from './pages/dashboard/dashboard.component';
 import { CoursesComponent } from './pages/courses/courses.component';
 import { ToolbarMenuComponent } from './shared/components/toolbar-menu/toolbar-menu.component';
+import { HttpClientModule } from '@angular/common/http';
 
 @NgModule({
   declarations: [
@@ -18,7 +19,8 @@ import { ToolbarMenuComponent } from './shared/components/toolbar-menu/toolbar-m
     BrowserModule,
     AppRoutingModule,
     BrowserAnimationsModule,
-    MaterialModule
+    MaterialModule,
+    HttpClientModule
   ],
   providers: [],
   bootstrap: [AppComponent]
