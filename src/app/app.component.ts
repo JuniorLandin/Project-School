@@ -1,9 +1,9 @@
-import { Component } from '@angular/core';
+import { Component, inject } from '@angular/core';
 import { every, filter, fromEvent, map } from 'rxjs';
 
 import { MenuItem } from './shared/models/menuItem';
 import { menuItems } from './shared/models/menu';
-import { NavigationEnd, Router } from '@angular/router';
+import { ActivatedRoute, NavigationEnd, Router } from '@angular/router';
 
 export const SCROLL_CONTAINER = 'mat-sidenav-content';
 export const TEXT_LIMIT = 60;
@@ -20,8 +20,8 @@ export class AppComponent {
   public applyShadows = false;
   public items_menu: MenuItem[] = menuItems;
   public menuName = '';
-
-  constructor(private router: Router){}
+  private router = inject(Router)
+  private activatedRoute = inject(ActivatedRoute)
 
   ngOnInit(): void {
     const content = document.getElementsByClassName(SCROLL_CONTAINER)[0];
@@ -35,14 +35,9 @@ export class AppComponent {
     })
 
     this.router.events.pipe(
-      filter(event => event instanceof NavigationEnd),
-      map(event => event as NavigationEnd)
-    ).subscribe((event: NavigationEnd) => {
-      let moduleName = event.url.split('/')[1]
-      
-      this.menuName = this.items_menu.filter(
-        (item: MenuItem) => item.link == `/${moduleName}`
-      )[0].label
+      filter(event => event instanceof NavigationEnd)
+    ).subscribe(() => {
+      this.menuName = this.activatedRoute.firstChild?.snapshot.routeConfig?.path ?? '';
     })
   }
 

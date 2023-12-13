@@ -16,6 +16,7 @@ mat-toolbar-row{
   background-color: #575757;
 
   &-title{
+    text-transform: capitalize;
     margin-top: 20px;
     margin-left: 32px;
     width: 50%;
