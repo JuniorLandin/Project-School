@@ -4,7 +4,7 @@
 >
   <mat-toolbar-row>
     <a href="/dashboard" mat-button class="logo">
-      <mat-icon fontSet="fa" fontIcon="fa-school"></mat-icon>
+      <mat-icon fontSet="fa" fontIcon="fa-school" style="margin-bottom: 15px; margin-right: 15px;"></mat-icon>
       <span class="title" *ngIf="!popText"> Project School</span>
       <span class="title" *ngIf="popText"> Project School - {{menuName}}</span>
     </a>
@@ -21,7 +21,7 @@
        </a>
       </mat-menu>
     </div>
-    <div>
+    <div style="margin-left: 10px;">
       <button mat-button [matMenuTriggerFor]="menu">
         <mat-icon class="space-right-icon">account_circle</mat-icon>
         <span>Junior Landin</span>

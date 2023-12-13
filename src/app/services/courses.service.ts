@@ -12,7 +12,7 @@ export class CoursesService {
   constructor() { }
 
   baseUrl = enviroments.baseURL
-  urlCourses = `${enviroments.baseURL}courses`
+  urlCourses = `${enviroments.baseURL}/courses`
 
   private http = inject(HttpClient)
 

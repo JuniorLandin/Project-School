@@ -15,7 +15,7 @@ export class CourseListComponent {
   ) {}
 
   ngOnInit() {
-    this.getCourses
+    this.getCourses()
   }
 
   public getCourses(): void{

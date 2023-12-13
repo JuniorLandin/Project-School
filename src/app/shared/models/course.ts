@@ -1,7 +1,7 @@
 export interface Course {
   id: number;
-  mame: string;
-  categoria: Category;
+  name: string;
+  category: Category;
   description: string;
   rating: number;
   year: number;
