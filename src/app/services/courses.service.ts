@@ -1,7 +1,7 @@
 import { Injectable, inject } from '@angular/core';
 import { enviroments } from '../../enviroments/enviroments';
-import { HttpClient } from '@angular/common/http';
-import { Observable } from 'rxjs';
+import { HttpClient, HttpResponse } from '@angular/common/http';
+import { Observable, take } from 'rxjs';
 import { Course } from '../shared/models/course';
 
 @Injectable({
@@ -16,8 +16,13 @@ export class CoursesService {
 
   private http = inject(HttpClient)
 
-  public getCourses(): Observable<Course[]> {
-    return this.http.get<Course[]>(`${this.urlCourses}`)
+  public getCourses(currentPage: number, pageSize: number, category: string, search: string): Observable<HttpResponse<any>> {
+    let url = `${this.urlCourses}?_page=${currentPage}&_limit=${pageSize}`
+      if(search)
+        url = `${url}&q=${search}`
+      if(category)
+        url = `${url}&category=${category}`
+    return this.http.get<HttpResponse<any>>(`${url}`, {observe: 'response'}).pipe(take(1))
   }
 
   public getCourseByID(id: number): Observable<Course[]> {

@@ -41,3 +41,21 @@ mat-divider{
     padding-bottom: 0px !important;
   }
 }
+
+mat-form-field{
+  margin-top: 10px;
+}
+
+.form-field-category{
+  @media (min-width: 600px) {
+    margin-right: 10px;
+  }
+}
+
+::ng-deep .mat-paginator-container {
+  padding: 0px 0px !important;
+}
+
+::ng-deep .mat-paginator-range-label {
+  padding: 0px 0px !important;
+}
