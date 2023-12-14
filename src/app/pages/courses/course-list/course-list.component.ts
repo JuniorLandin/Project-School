@@ -2,7 +2,8 @@ import { HttpResponse } from '@angular/common/http';
 import { Component } from '@angular/core';
 import { FormBuilder, FormGroup } from '@angular/forms';
 import { PageEvent } from '@angular/material/paginator';
-import { debounceTime } from 'rxjs';
+import { MatSnackBar } from '@angular/material/snack-bar';
+import { EMPTY, Observable, Subscription, catchError, debounceTime, tap } from 'rxjs';
 import { CoursesService } from 'src/app/services/courses.service';
 import { Category, Course } from 'src/app/shared/models/course';
 
@@ -20,11 +21,14 @@ export class CourseListComponent {
 
   public categoryList = Object.values(Category)
   public form!: FormGroup
+  public sub!: Subscription
+  public courseData!: Observable<any>;
 
 
   constructor(
     private courseService: CoursesService,
-    private fb: FormBuilder
+    private fb: FormBuilder,
+    private snackBar: MatSnackBar
   ) {}
 
   ngOnInit() {
@@ -59,23 +63,31 @@ export class CourseListComponent {
 
   
   public getCourses(currentPage: number, pageSize: number, category: string, search: string): void{
-    this.courseService
+    this.courseData = this.courseService
     .getCourses(currentPage, pageSize, category, search)
-    .subscribe((response: HttpResponse<any>) => {
-      this.courseList = response.body as Course[];
-      let totalCount = response.headers.get('X-Total-Count')
-      this.totalCount = totalCount ? Number(totalCount) : 0
-      console.log(response)
-    })
+    .pipe(
+      tap((response) => {
+        this.courseList = response.body as Course[];
+        let totalCount = response.headers.get('X-Total-Count')
+        this.totalCount = totalCount ? Number(totalCount) : 0
+      }),
+      catchError((err) => {
+        this.snackBar.open(err, 'CLOSE', {
+          duration: 5000
+        });
+        return EMPTY
+      })
+    )
   }
   
   public doSearch(): void{
     this.getCourses(
       this.currentPage, 
       this.pageSize, 
-      this.f.category.value ?? '', 
-      this.f.search.value ?? ''
+      this.f.category.value || '', 
+      this.f.search.value || ''
       )
+      console.log(this.f.search.value);
   }
 
   public handlePageEvent(e: PageEvent): void {
@@ -84,8 +96,8 @@ export class CourseListComponent {
     this.getCourses(
       this.currentPage, 
       this.pageSize, 
-      this.f.category.value ?? '', 
-      this.f.search.value ?? ''
+      this.f.category.value || '', 
+      this.f.search.value || ''
       )
   }
 }

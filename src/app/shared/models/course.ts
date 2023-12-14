@@ -6,6 +6,7 @@ export interface Course {
   rating: number;
   year: number;
   professor: string;
+  image_url: string;
 }
 
 export enum Category {

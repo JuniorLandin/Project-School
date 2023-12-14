@@ -7,7 +7,8 @@
       "rating": 4.7,
       "year": 2022,
       "professor": "Lucas Oliveira",
-      "description": "Aprenda React de forma avançada. (Tecnologia)"
+      "description": "Aprenda React de forma avançada. (Tecnologia)",
+      "image_url": "https://images.unsplash.com/photo-1488590528505-98d2b5aba04b?q=80&w=1470&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
     },
     {
       "id": 2,
@@ -16,7 +17,8 @@
       "rating": 4.9,
       "year": 2023,
       "professor": "Ana Beatriz Silva",
-      "description": "Domine ML e IA. (Tecnologia)"
+      "description": "Domine ML e IA. (Tecnologia)",
+      "image_url": "https://images.unsplash.com/photo-1550751827-4bd374c3f58b?q=80&w=1470&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
     },
     {
       "id": 3,
@@ -25,7 +27,8 @@
       "rating": 4.3,
       "year": 2020,
       "professor": "Gustavo Santos",
-      "description": "Exploração artística moderna. (Arte)"
+      "description": "Exploração artística moderna. (Arte)",
+      "image_url": "https://images.unsplash.com/photo-1605721911519-3dfeb3be25e7?q=80&w=1470&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
     },
     {
       "id": 4,
@@ -34,7 +37,8 @@
       "rating": 4.8,
       "year": 2021,
       "professor": "Mariana Costa",
-      "description": "Técnicas avançadas na culinária. (Culinária)"
+      "description": "Técnicas avançadas na culinária. (Culinária)",
+      "image_url": "https://images.unsplash.com/photo-1528712306091-ed0763094c98?q=80&w=1480&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
     },
     {
       "id": 5,
@@ -43,7 +47,8 @@
       "rating": 4.7,
       "year": 2022,
       "professor": "Rafael Fernandes",
-      "description": "Investimentos sólidos. (Finanças)"
+      "description": "Investimentos sólidos. (Finanças)",
+      "image_url": "https://plus.unsplash.com/premium_photo-1681469490209-c2f9f8f5c0a2?q=80&w=1483&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
     },
     {
       "id": 6,
@@ -52,7 +57,8 @@
       "rating": 4.6,
       "year": 2021,
       "professor": "Camila Silva",
-      "description": "Abordagens modernas em psicologia. (Psicologia)"
+      "description": "Abordagens modernas em psicologia. (Psicologia)",
+      "image_url": "https://images.unsplash.com/photo-1494797262163-102fae527c62?q=80&w=1528&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
     },
     {
       "id": 7,
@@ -61,7 +67,8 @@
       "rating": 4.5,
       "year": 2020,
       "professor": "Fábio Augusto",
-      "description": "Estratégias eficazes de marketing. (Marketing)"
+      "description": "Estratégias eficazes de marketing. (Marketing)",
+      "image_url": "https://images.unsplash.com/photo-1501504905252-473c47e087f8?q=80&w=1374&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
     },
     {
       "id": 8,
@@ -70,7 +77,8 @@
       "rating": 4.4,
       "year": 2019,
       "professor": "Luciana Oliveira",
-      "description": "Captura da beleza da natureza. (Fotografia)"
+      "description": "Captura da beleza da natureza. (Fotografia)",
+      "image_url": "https://images.unsplash.com/photo-1590486803833-1c5dc8ddd4c8?q=80&w=1374&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
     },
     {
       "id": 9,
@@ -79,7 +87,8 @@
       "rating": 4.5,
       "year": 2022,
       "professor": "Leonardo Barbosa",
-      "description": "Histórias e poesias inspiradoras. (Escrita)"
+      "description": "Histórias e poesias inspiradoras. (Escrita)",
+      "image_url": "https://plus.unsplash.com/premium_photo-1661301044600-8856088002c7?q=80&w=1470&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
     },
     {
       "id": 10,
@@ -88,7 +97,8 @@
       "rating": 4.9,
       "year": 2023,
       "professor": "Patrícia Costa",
-      "description": "Crie músicas excepcionais. (Música)"
+      "description": "Crie músicas excepcionais. (Música)",
+      "image_url": "https://images.unsplash.com/photo-1470225620780-dba8ba36b745?q=80&w=1470&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
     },
     {
       "id": 11,
@@ -97,7 +107,8 @@
       "rating": 4.2,
       "year": 2019,
       "professor": "Paulo Mendes",
-      "description": "Proteja nosso planeta. (Ciências Ambientais)"
+      "description": "Proteja nosso planeta. (Ciências Ambientais)",
+      "image_url": "https://plus.unsplash.com/premium_photo-1661391644149-4fab855f2815?q=80&w=1470&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
     },
     {
       "id": 12,
@@ -106,7 +117,8 @@
       "rating": 4.6,
       "year": 2021,
       "professor": "Bianca Fernandes",
-      "description": "Moda e estilo sustentáveis. (Moda)"
+      "description": "Moda e estilo sustentáveis. (Moda)",
+      "image_url": "https://images.unsplash.com/photo-1501644898242-cfea317d7faf?q=80&w=1374&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
     },
     {
       "id": 13,
@@ -115,7 +127,8 @@
       "rating": 4.7,
       "year": 2022,
       "professor": "Carolina Santos",
-      "description": "Habilidades de comunicação no trabalho. (Comunicação)"
+      "description": "Habilidades de comunicação no trabalho. (Comunicação)",
+      "image_url": "https://plus.unsplash.com/premium_photo-1661506494637-e99e049e6020?q=80&w=1472&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
     },
     {
       "id": 14,
@@ -124,7 +137,8 @@
       "rating": 4.3,
       "year": 2020,
       "professor": "Pedro Almeida",
-      "description": "Debate político moderno. (Filosofia)"
+      "description": "Debate político moderno. (Filosofia)",
+      "image_url": "https://images.unsplash.com/photo-1620662736427-b8a198f52a4d?q=80&w=1471&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
     },
     {
       "id": 15,
@@ -133,7 +147,8 @@
       "rating": 4.8,
       "year": 2021,
       "professor": "Luiz Oliveira",
-      "description": "Bem-estar mental e físico. (Saúde)"
+      "description": "Bem-estar mental e físico. (Saúde)",
+      "image_url": "https://plus.unsplash.com/premium_photo-1668541289340-63aa177874e3?q=80&w=1374&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
     },
     {
       "id": 16,
@@ -142,7 +157,8 @@
       "rating": 4.6,
       "year": 2023,
       "professor": "Isabella Santos",
-      "description": "Explore o desenvolvimento avançado de aplicativos web usando Vue.js. (Tecnologia)"
+      "description": "Explore o desenvolvimento avançado de aplicativos web usando Vue.js. (Tecnologia)",
+      "image_url": "https://images.unsplash.com/photo-1496065187959-7f07b8353c55?q=80&w=1470&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
     },
     {
       "id": 17,
@@ -151,7 +167,8 @@
       "rating": 4.8,
       "year": 2023,
       "professor": "David Garcia",
-      "description": "Domine os fundamentos da cibersegurança. (Tecnologia)"
+      "description": "Domine os fundamentos da cibersegurança. (Tecnologia)",
+      "image_url": "https://images.unsplash.com/photo-1568952433726-3896e3881c65?q=80&w=1470&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
     },
     {
       "id": 19,
@@ -160,7 +177,8 @@
       "rating": 4.5,
       "year": 2023,
       "professor": "André Costa",
-      "description": "Explore técnicas modernas de escultura e arte. (Arte)"
+      "description": "Explore técnicas modernas de escultura e arte. (Arte)",
+      "image_url": "https://images.unsplash.com/photo-1547891654-e66ed7ebb968?q=80&w=1470&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
     },
     {
       "id": 18,
@@ -169,7 +187,8 @@
       "rating": 4.5,
       "year": 2022,
       "professor": "Sofia Rodriguez",
-      "description": "Aprofunde-se nas técnicas e tendências da arte abstrata moderna. (Arte)"
+      "description": "Aprofunde-se nas técnicas e tendências da arte abstrata moderna. (Arte)",
+      "image_url": "https://images.unsplash.com/photo-1515405295579-ba7b45403062?q=80&w=1480&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
     },
     {
       "id": 20,
@@ -178,7 +197,8 @@
       "rating": 4.7,
       "year": 2022,
       "professor": "Javier Martinez",
-      "description": "Fusão de sabores e técnicas culinárias internacionais. (Culinária)"
+      "description": "Fusão de sabores e técnicas culinárias internacionais. (Culinária)",
+      "image_url": "https://images.unsplash.com/photo-1514986888952-8cd320577b68?q=80&w=1476&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
     },
     {
       "id": 21,
@@ -187,7 +207,8 @@
       "rating": 4.6,
       "year": 2023,
       "professor": "Maria Hernandez",
-      "description": "Aprenda estratégias eficazes de investimento em imóveis. (Finanças)"
+      "description": "Aprenda estratégias eficazes de investimento em imóveis. (Finanças)",
+      "image_url": "https://images.unsplash.com/photo-1460925895917-afdab827c52f?q=80&w=1415&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
     },
     {
       "id": 22,
@@ -196,7 +217,8 @@
       "rating": 4.7,
       "year": 2022,
       "professor": "Sofia Garcia",
-      "description": "Explore a ciência do bem-estar e da psicologia positiva. (Psicologia)"
+      "description": "Explore a ciência do bem-estar e da psicologia positiva. (Psicologia)",
+      "image_url": "https://images.unsplash.com/photo-1528716321680-815a8cdb8cbe?q=80&w=1376&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
     },
     {
       "id": 23,
@@ -205,7 +227,8 @@
       "rating": 4.8,
       "year": 2023,
       "professor": "Laura Martins",
-      "description": "Aproveite o poder do marketing de influência na era digital. (Marketing)"
+      "description": "Aproveite o poder do marketing de influência na era digital. (Marketing)",
+      "image_url": "https://images.unsplash.com/photo-1541537103745-ea3429c65dc4?q=80&w=1374&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
     },
     {
       "id": 24,
@@ -214,7 +237,8 @@
       "rating": 4.5,
       "year": 2022,
       "professor": "Daniel Lopez",
-      "description": "Domine técnicas avançadas na fotografia de paisagens. (Fotografia)"
+      "description": "Domine técnicas avançadas na fotografia de paisagens. (Fotografia)",
+      "image_url": "https://images.unsplash.com/photo-1542038784456-1ea8e935640e?q=80&w=1470&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
     },
     {
       "id": 25,
@@ -223,7 +247,8 @@
       "rating": 4.6,
       "year": 2023,
       "professor": "Isabel Rodrigues",
-      "description": "Crie histórias curtas e poesia inspiradora. (Escrita)"
+      "description": "Crie histórias curtas e poesia inspiradora. (Escrita)",
+      "image_url": "https://images.unsplash.com/photo-1455390582262-044cdead277a?q=80&w=1373&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
     },
     {
       "id": 26,
@@ -232,7 +257,8 @@
       "rating": 4.9,
       "year": 2023,
       "professor": "Antonio Silva",
-      "description": "Componha peças musicais excepcionais. (Música)"
+      "description": "Componha peças musicais excepcionais. (Música)",
+      "image_url": "https://images.unsplash.com/photo-1507838153414-b4b713384a76?q=80&w=1470&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
     },
     {
       "id": 27,
@@ -241,7 +267,8 @@
       "rating": 4.7,
       "year": 2022,
       "professor": "Luisa Mendes",
-      "description": "Estratégias para conservar a biodiversidade. (Ciências Ambientais)"
+      "description": "Estratégias para conservar a biodiversidade. (Ciências Ambientais)",
+      "image_url": "https://images.unsplash.com/photo-1467579424161-6bbc141569d7?q=80&w=1470&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
     },
     {
       "id": 28,
@@ -250,7 +277,8 @@
       "rating": 4.8,
       "year": 2023,
       "professor": "Carlos Fernandes",
-      "description": "Projete moda sustentável e estilosa. (Moda)"
+      "description": "Projete moda sustentável e estilosa. (Moda)",
+      "image_url": "https://images.unsplash.com/photo-1483985988355-763728e1935b?q=80&w=1470&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
     },
     {
       "id": 29,
@@ -259,7 +287,8 @@
       "rating": 4.6,
       "year": 2022,
       "professor": "Isabel Oliveira",
-      "description": "Aprimore as habilidades de comunicação no ambiente de trabalho. (Comunicação)"
+      "description": "Aprimore as habilidades de comunicação no ambiente de trabalho. (Comunicação)",
+      "image_url": "https://images.unsplash.com/photo-1600880292203-757bb62b4baf?q=80&w=1470&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
     },
     {
       "id": 30,
@@ -268,7 +297,8 @@
       "rating": 4.5,
       "year": 2023,
       "professor": "Ricardo Alves",
-      "description": "Exploração da filosofia política contemporânea. (Filosofia)"
+      "description": "Exploração da filosofia política contemporânea. (Filosofia)",
+      "image_url": "https://images.unsplash.com/photo-1505664194779-8beaceb93744?q=80&w=1470&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
     },
     {
       "id": 31,
@@ -277,7 +307,8 @@
       "rating": 4.9,
       "year": 2022,
       "professor": "Mariana Silva",
-      "description": "Achieve mindfulness and manage stress effectively. (Saúde)"
+      "description": "Achieve mindfulness and manage stress effectively. (Saúde)",
+      "image_url": "https://images.unsplash.com/photo-1505751172876-fa1923c5c528?q=80&w=1470&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
     },
     {
       "id": 31,
@@ -286,7 +317,8 @@
       "rating": 4.9,
       "year": 2022,
       "professor": "Mariana Silva",
-      "description": "Alcance mindfulness e gerencie o estresse eficazmente. (Saúde)"
+      "description": "Alcance mindfulness e gerencie o estresse eficazmente. (Saúde)",
+      "image_url": "https://plus.unsplash.com/premium_photo-1670505062582-fdaa83c23c9e?q=80&w=1471&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
     },
     {
       "id": 32,
@@ -295,7 +327,8 @@
       "rating": 4.8,
       "year": 2023,
       "professor": "Pedro Oliveira",
-      "description": "Domine o desenvolvimento avançado de aplicativos móveis com Flutter. (Tecnologia)"
+      "description": "Domine o desenvolvimento avançado de aplicativos móveis com Flutter. (Tecnologia)",
+      "image_url": "https://images.unsplash.com/photo-1581091226825-a6a2a5aee158?q=80&w=1470&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
     },
     {
       "id": 33,
@@ -304,7 +337,8 @@
       "rating": 4.7,
       "year": 2022,
       "professor": "Ana Santos",
-      "description": "Aplique ciência de dados para análise de negócios eficaz. (Tecnologia)"
+      "description": "Aplique ciência de dados para análise de negócios eficaz. (Tecnologia)",
+      "image_url": "https://images.unsplash.com/photo-1597733336794-12d05021d510?q=80&w=1374&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
     },
     {
       "id": 34,
@@ -313,7 +347,8 @@
       "rating": 4.5,
       "year": 2023,
       "professor": "André Costa",
-      "description": "Explore técnicas modernas de escultura e arte. (Arte)"
+      "description": "Explore técnicas modernas de escultura e arte. (Arte)",
+      "image_url": "https://images.unsplash.com/photo-1561214115-f2f134cc4912?q=80&w=1418&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
     },
     {
       "id": 35,
@@ -322,7 +357,8 @@
       "rating": 4.9,
       "year": 2022,
       "professor": "Elena Rodriguez",
-      "description": "Domine a arte da confeitaria gourmet. (Culinária)"
+      "description": "Domine a arte da confeitaria gourmet. (Culinária)",
+      "image_url": "https://images.unsplash.com/photo-1507048331197-7d4ac70811cf?q=80&w=1374&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
     },
     {
       "id": 36,
@@ -331,7 +367,8 @@
       "rating": 4.8,
       "year": 2023,
       "professor": "Daniel Fernandes",
-      "description": "Desenvolva habilidades de gestão financeira estratégica. (Finanças)"
+      "description": "Desenvolva habilidades de gestão financeira estratégica. (Finanças)",
+      "image_url": "https://plus.unsplash.com/premium_photo-1677022383099-555c0bcc63e5?q=80&w=1563&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
     },
     {
       "id": 37,
@@ -340,7 +377,8 @@
       "rating": 4.7,
       "year": 2022,
       "professor": "Laura Almeida",
-      "description": "Aprofunde-se na psicologia cognitiva avançada. (Psicologia)"
+      "description": "Aprofunde-se na psicologia cognitiva avançada. (Psicologia)",
+      "image_url": "https://images.unsplash.com/photo-1609348954993-bc615fa8694f?q=80&w=1374&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
     },
     {
       "id": 38,
@@ -349,7 +387,8 @@
       "rating": 4.6,
       "year": 2023,
       "professor": "Carlos Oliveira",
-      "description": "Elabore estratégias eficazes de marketing digital. (Marketing)"
+      "description": "Elabore estratégias eficazes de marketing digital. (Marketing)",
+      "image_url": "https://images.unsplash.com/photo-1553877522-43269d4ea984?q=80&w=1470&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
     },
     {
       "id": 39,
@@ -358,7 +397,8 @@
       "rating": 4.9,
       "year": 2022,
       "professor": "Isabella Lopez",
-      "description": "Capture a beleza da vida selvagem através da fotografia. (Fotografia)"
+      "description": "Capture a beleza da vida selvagem através da fotografia. (Fotografia)",
+      "image_url": "https://images.unsplash.com/photo-1554048612-b6a482bc67e5?q=80&w=1470&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
     },
     {
       "id": 40,
@@ -367,7 +407,8 @@
       "rating": 4.8,
       "year": 2023,
       "professor": "Lucas Rodrigues",
-      "description": "Mergulhe no mundo da escrita de ficção científica. (Escrita)"
+      "description": "Mergulhe no mundo da escrita de ficção científica. (Escrita)",
+      "image_url": "https://images.unsplash.com/photo-1517971071642-34a2d3ecc9cd?q=80&w=1376&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
     }
   ]
 }
